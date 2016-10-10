@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "679467988914",
+    "firebase_url": "https://togetherv-c2ac6.firebaseio.com",
+    "project_id": "togetherv-c2ac6",
+    "storage_bucket": "togetherv-c2ac6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679467988914:android:57742832f65f8ca7",
+        "android_client_info": {
+          "package_name": "com.adcoretechnologies.togetherv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679467988914-oflq72gfp3iq1nrtt8pilu3kupivv4qb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adcoretechnologies.togetherv",
+            "certificate_hash": "0098D490AC1949359D0F57D5870D6EA6DE417678"
+          }
+        },
+        {
+          "client_id": "679467988914-6lphr039v9m2gbl3metua7h16fnopvfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuaGTwAWMqC7AzIHtCef7YJEsKfqa1TLw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679467988914-6lphr039v9m2gbl3metua7h16fnopvfs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
