@@ -18,7 +18,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.adcoretechnologies.togetherv.MainActivity;
+import com.adcoretechnologies.togetherv.dashboard.MainActivity;
 import com.adcoretechnologies.togetherv.R;
 
 

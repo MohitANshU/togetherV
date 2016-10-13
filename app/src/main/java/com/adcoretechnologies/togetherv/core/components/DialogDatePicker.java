@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.widget.DatePicker;
 
-import com.adcoretechnologies.togetherv.MainActivity;
+import com.adcoretechnologies.togetherv.dashboard.MainActivity;
 
 import java.util.Calendar;
 
