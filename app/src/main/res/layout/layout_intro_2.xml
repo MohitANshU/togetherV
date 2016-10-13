@@ -17,7 +17,7 @@
         <ImageView
             android:layout_width="@dimen/img_width_height"
             android:layout_height="@dimen/img_width_height"
-            android:src="@drawable/sv_deal" />
+            android:src="@drawable/ic_couple_friendly" />
 
         <TextView
             android:layout_width="wrap_content"
