@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout
         android:id="@+id/activity_login"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -13,12 +13,11 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context="com.adcoretechnologies.togetherv.auth.Login.LoginActivity">
+        tools:context="com.adcoretechnologies.togetherv.auth.register.RegisterActivity">
 
 
         <LinearLayout
             style="@style/AppTheme.LinearLayout"
-            android:layout_centerInParent="true"
             android:orientation="vertical">
 
             <android.support.design.widget.TextInputLayout style="@style/AppTheme.TextInputLayout">
@@ -73,9 +72,34 @@
                     android:drawableLeft="@drawable/sv_password"
                     android:gravity="center_vertical"
                     android:hint="Referral Code"
-                    android:inputType="textPassword" />
+                    android:inputType="text" />
             </android.support.design.widget.TextInputLayout>
 
+            <android.support.design.widget.TextInputLayout
+                style="@style/AppTheme.TextInputLayout"/>
+
+            <LinearLayout
+                style="@style/AppTheme.LinearLayout"
+                android:orientation="horizontal"
+                android:layout_weight="2"
+                >
+
+                <TextView
+                    style="@style/AppTheme.TextView.Wrap"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="City"
+                    android:textSize="@dimen/font_x3" />
+
+                <TextView
+                    android:id="@+id/tvCity"
+                    style="@style/AppTheme.TextView.Wrap"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="--Select--"
+                    android:textSize="@dimen/font_x3" />
+            </LinearLayout>
 
             <Button
                 android:id="@+id/btnSignUp"
@@ -90,7 +114,6 @@
                 android:text="Reset your password here"
                 android:textColor="@color/colorSecondaryText" />
         </LinearLayout>
-
-
     </LinearLayout>
+
 </ScrollView>

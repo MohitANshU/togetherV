@@ -3,6 +3,8 @@ package com.adcoretechnologies.togetherv.auth.Forgot_Password;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.adcoretechnologies.togetherv.R;
+
 public class ForgotPasswordActivity extends AppCompatActivity {
 
     @Override
