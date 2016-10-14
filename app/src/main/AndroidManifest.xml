@@ -39,7 +39,9 @@
             android:label="Login"
             android:theme="@style/AppTheme" />
         <activity android:name=".auth.register.RegisterActivity" />
-        <activity android:name=".auth.Forgot_Password.ForgotPasswordActivity"></activity>
+        <activity android:name=".auth.Forgot_Password.ForgotPasswordActivity" />
+        <activity android:name=".auth.register.Fragment_City_Select" />
+        <activity android:name=".booking.Booking"></activity>
     </application>
 
 </manifest>

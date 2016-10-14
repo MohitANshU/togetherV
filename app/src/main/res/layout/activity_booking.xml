@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        style="@style/AppTheme.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout style="@style/AppTheme.LinearLayout.CardView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_Icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/ic_launcher" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                    <android.support.percent.PercentRelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvPropertyName"
+                            style="@style/AppTheme.TextView.CardView.Title"
+                            android:layout_width="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="Service Name"
+                            app:layout_widthPercent="80%" />
+
+
+                    </android.support.percent.PercentRelativeLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/AppTheme.Divider.CardView"></View>
+
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvOccupiedOn"
+                    style="@style/AppTheme.TextView.CardView"
+                    android:layout_alignParentRight="true"
+                    android:gravity="left"
+                    android:text="DDMMMYYYY"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textSize="@dimen/font_x2" />
+
+            </android.support.percent.PercentRelativeLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
